@@ -1,0 +1,16 @@
+{
+	"name": "freedom-platform-app-node",
+	"version": "0.1.0",
+	"pm": "sm",
+	"mappings": {
+		"sm": "github.com/sourcemint/sm/~0.1.0",
+		"node": ["sm", "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz", {
+			"descriptor": {
+				"pm": "make",
+				"bin": {
+					"node": "./node"
+				}
+			}
+		}]
+	}
+}
