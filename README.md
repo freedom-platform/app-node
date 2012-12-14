@@ -15,5 +15,4 @@ Status: BETA
 Usage
 -----
 
-	sm init https://github.com/freedom-platform/app-node --dir ./app -s
 	sm try https://github.com/freedom-platform/app-node
