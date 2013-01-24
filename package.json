@@ -2,20 +2,24 @@
     "extends": [
         "dev"
     ],
-	"name": "freedom-platform-app-node",
-	"version": "0.1.0",
-	"pm": "sm",
-	"mappings": {
-		"node": ["sm", "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz", {
-			"descriptor": {
-				"pm": "make",
-				"bin": {
-					"node": "./node"
-				}
-			}
-		}]
-	},
-	"devMappings": {
+    "name": "freedom-platform-app-node",
+    "version": "0.1.1",
+    "pm": "sm",
+    "mappings": {
+        "node": [
+            "sm",
+            "http://nodejs.org/dist/v0.6.19/node-v0.6.19.tar.gz",
+            {
+                "descriptor": {
+                    "pm": "make",
+                    "bin": {
+                        "node": "./node"
+                    }
+                }
+            }
+        ]
+    },
+    "devMappings": {
         "dev": "github.com/freedom-platform/dev/~0.1.0"
-	}
+    }
 }
